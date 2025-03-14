@@ -1,0 +1,54 @@
+[
+    {
+        "id": 143455334, 
+        "name": "The Exorcist", 
+        "year": "1973",
+        "rate": 4,
+        "imageName": "the_exorcist.jpg",
+        "storyline": "Blatty, who also produced, and Friedkin, his choice as director, had difficulty casting the film. Their choice of relative unknowns Burstyn, Blair, and Miller, instead of major stars, drew opposition from executives at Warner Bros. Principal photography was also difficult. Many cast and crew were injured, some died, and unusual accidents delayed shooting. Production took twice as long as scheduled and cost almost three times the initial budget; the many mishaps have led to a belief that the film was cursed.",
+        "genre": "horror",
+        "language": "English",
+        "punchfactor": "Must seen movie if you love horror movie",
+        "directors": ["William Friedkin"],
+        "artists": ["Ellen Burstyn", "Max von Sydow", "Lee J. Cobb","Kitty Winn", "Jack MacGowran", "Jason Miller", "Linda Blair"]
+    },
+    {
+        "id": 2455466664, 
+        "name": "Gravity", 
+        "year": "2013",
+        "rate": 5,
+        "imageName": "gravity.jpg",
+        "storyline": "Dr Ryan Stone, an engineer on her first space mission, and Matt Kowalski, an astronaut on his final expedition, have to survive in space after they are hit by debris while spacewalking.",
+        "genre": "space",
+        "language": "English",
+        "punchfactor": "'Gravity' is a must-see film due to its stunning visuals, immersive experience, and exploration of human resilience in the face of unimaginable danger, all while offering a realistic depiction of space travel.",
+        "directors": ["Alfonso Cuarón"],
+        "artists": ["Jonás Cuarón", "Alfonso Cuarón"]
+    },
+    {
+        "id": 466483473, 
+        "name": "Kalki", 
+        "year": "2024",
+        "rate": 3,
+        "imageName": "kalki.jpg",
+        "storyline": "Kalki 2898 AD is a 2024 Indian Telugu-language epic mythological science-fiction film directed by Nag Ashwin. Set in a post-apocalyptic world in the year 2898 AD, the story follows the last known city of Kasi, ruled by the tyrannical Supreme Yaskin. Amidst this dystopian backdrop, a prophecy foretells the arrival of Kalki, the final avatar of Lord Vishnu, destined to bring hope and salvation. The narrative centers on a group of rebels, including the immortal Ashwatthama, who must protect Sumati, the mother of Kalki, from Yaskin's oppressive regime",
+        "genre": "mythological science-fiction",
+        "language": "Hindi",
+        "punchfactor": "I like it but not as per the book as written in 'Kalki Puran'",
+        "directors": ["Nag Ashwin"],
+        "artists": ["Amitabh Bachchan", "Kamal Haasan","Prabhas", "Deepika Padukone", "Disha Patani"]
+    },
+    {
+        "id": 268845453, 
+        "name": "Chaava", 
+        "year": "2025",
+        "rate": 4,
+        "imageName": "chaava.jpg",
+        "storyline": "A historical drama based on the life of Chhatrapati Sambhaji Maharaj, the son of Chhatrapati Shivaji Maharaj. The news of the death of Shivaji reaches the court of the Mughal Emperor Aurangzeb. His advisers anticipate the collapse of the Maratha resistance, while Aurangzeb, though acknowledging the loss of a formidable enemy, orders a celebration. However, leadership has already passed to Sambhaji, Shivaji's son. Burhanpur, a key Mughal administrative and commercial center, faces a sudden Maratha attack. The defenders, led by Khan Zamaan and unprepared, are overwhelmed by the onslaught. In the midst of battle, Sambhaji falls into a secret chamber when he steps on a trapdoor where he faces a lion which repeatedly attacks him. Overpowering the beast by splitting open its jaws with his bare hands, he gets out of the chamber and is shown to win a duel with Khan Zamaan. The Marathas then seize the Mughal treasury, directly challenging imperial authority.",
+        "genre": "hinduism",
+        "language": "Hindi",
+        "punchfactor": "Chaava delivers an intense, raw portrayal of torment that gave me genuine goosebumps. The scenes of torture are hauntingly impactful, yet I deeply appreciate the directors thoughtful restraint in not showing every detail. This balance allows the narrative to resonate without overwhelming, leaving a lasting impression that lingers well beyond the screen...",
+        "directors": ["Laxman Utekar"],
+        "artists": ["Vicky Kaushal", "Rashmika Mandanna", "Akshay Khanna"]
+    }
+]

@@ -1,0 +1,58 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap-grid.rtl.min.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.min.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+@import "https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Reenie+Beanie&display=swap";
+
+
+.punch-factor {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  background:#ffffa7;
+}
+.punch-factor-hindi {
+  font-family: "Mukta", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  background:#ffffa7;
+}
+
+.title, h4, h3 {
+  color: #9e9e89;
+}
+
+.nav-link {
+  color: #9e9e89;
+  border-bottom: none;
+}
+.nav-link:hover {
+  color: #636355;
+}
+.nav-link.active {
+  color: #333;
+  border-bottom: 4px solid #d3d3b9;
+}
+header {
+  background: #f5f5ec;
+}
+
+.star1 img,
+.star2 img,
+.star3 img,
+.star4 img,
+.star5 img {
+  width: 17px;
+  padding: 2px;
+}
+
+.star1, .star2, .star3, .star4, .star5 {
+  display: inline-block;
+  vertical-align: bottom;
+}
