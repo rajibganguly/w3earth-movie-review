@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext, ReactNode } from 'react';
+import { createContext, useState, useContext, ReactNode } from 'react';
 import './../App.css';
 import { Link } from 'react-router-dom';
 
@@ -19,7 +19,7 @@ const Header = () => {
         throw new Error('Header must be used within a LanguageProvider');
     }
 
-    const { lang, setLang } = context;
+    const { setLang } = context;
 
     const setLanguage = (l: string) => {
         setActiveLanguage(l)
@@ -30,7 +30,7 @@ const Header = () => {
         <>
         <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="/" className="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
-            <span className="display-5 link-body-emphasis mb-1 fs-2"><strong>w3earth</strong> <em>movie-review</em></span>
+            <span className="display-5 link-body-emphasis mb-1 fs-2"><strong>w3earth</strong> <small className="fs-5">movie-review</small></span>
         </a>
 
         <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">

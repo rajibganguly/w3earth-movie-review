@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+
 import './../App.css';
 import List from './List';
 import { Movie } from './../interface/movie'
