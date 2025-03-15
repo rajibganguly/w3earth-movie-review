@@ -2,7 +2,6 @@ import { useEffect, useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import "./../App.css";
 import { Movie } from "../interface/movie";
-import RedStar from "./../assets/red-star.svg";
 
 import { LanguageContext } from "./header";
 
