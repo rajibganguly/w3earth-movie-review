@@ -42,7 +42,7 @@ const List = (movies: any) => {
           movieList.map((l: any) => (
             <div className="card col-xl-2 col-md-4 col-xs-12 m-1" key={l.id}>
               <img
-                src={`../public/movies/${l.imageName}`}
+                src={`../movies/${l.imageName}`}
                 className="card-img-top"
                 alt={l.name}
               />
