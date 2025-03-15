@@ -41,19 +41,24 @@ const List = (movies: any) => {
         {movieList.length > 0 ? (
           movieList.map((l: any) => (
             <div className="card col-xl-2 col-md-4 col-xs-12 m-1" key={l.id}>
+                <div className="top">
+                <span className="badge rounded-pill text-bg-light">{l.language}</span>
+                </div>
               <img
                 src={`../movies/${l.imageName}`}
                 className="card-img-top"
                 alt={l.name}
               />
-              <div className="card-body">
+              <hr />
+              <div className="">
                 <h5 className="card-title">{l.name}</h5>
-                <p className="card-text">
-                  <Star value={l.rate || "N/A"} />
+                <p className="card-text text-danger">
+                  <small><span className="badge rounded-pill text-bg-secondary">{l.genre}</span></small>
                 </p>
                 <Link to={`/details/${l.id}`} key={l.id}>
-                  Read more
+                  <img style={{width:'40px'}} src="https://static.vecteezy.com/system/resources/thumbnails/001/486/411/small/open-book-icon-free-vector.jpg" alt="" />
                 </Link>
+                
               </div>
             </div>
           ))
@@ -67,47 +72,6 @@ const List = (movies: any) => {
   );
 };
 
-const Star = ({ value }: any) => {
-  return (
-    <>
-      {value === 1 && (
-        <span className="star1">
-          <img src={RedStar} alt="Red Star" />
-        </span>
-      )}
-      {value === 2 && (
-        <span className="star2">
-          <img src={RedStar} alt="Red Star" />
-          <img src={RedStar} alt="Red Star" />
-        </span>
-      )}
-      {value === 3 && (
-        <span className="star3">
-          <img src={RedStar} alt="Red Star" />
-          <img src={RedStar} alt="Red Star" />
-          <img src={RedStar} alt="Red Star" />
-        </span>
-      )}
-      {value === 4 && (
-        <span className="star4">
-          <img src={RedStar} alt="Red Star" />
-          <img src={RedStar} alt="Red Star" />
-          <img src={RedStar} alt="Red Star" />
-          <img src={RedStar} alt="Red Star" />
-        </span>
-      )}
-      {value === 5 && (
-        <span className="star5">
-          <img src={RedStar} alt="Red Star" />
-          <img src={RedStar} alt="Red Star" />
-          <img src={RedStar} alt="Red Star" />
-          <img src={RedStar} alt="Red Star" />
-          <img src={RedStar} alt="Red Star" />
-        </span>
-      )}
-      {value === "" && <span>N/A</span>}
-    </>
-  );
-};
+
 
 export default List;

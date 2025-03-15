@@ -25,14 +25,14 @@ const Details = (totalArray: any) => {
     return (
         <>
             <div className="container">
-                <div className='border rounded'>
+                <div className='card border rounded'>
                     <div className="row">
                         <div className="col-md-12">
                             <div className="row g-0 overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                                 <div className="col p-4 d-flex flex-column position-static align-items-start">
                                     <strong className="d-inline-block mb-2 text-primary-emphasis">{mov.language}</strong>
                                     <h1 className="mb-0 text-danger display-4">{mov.name} <small className="text-dark">[{mov.year}]</small></h1>
-                                    <div className="mb-1 mt-1 text-body-secondary">Ratings: <Star value={mov.rate || "N/A"} /></div>
+                                    <div className="mb-1 mt-1 text-body-secondary">Calculate total votes and like ratio %(height 5): <Star value={mov.rate || "N/A"} /></div>
                                     <h4 className="mt-4 mb-3">Story:</h4>
                                     <p className="card-text mb-auto text-start px-2">{mov.storyline}</p>
                                     <hr/>

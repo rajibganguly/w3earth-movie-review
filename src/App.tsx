@@ -21,7 +21,7 @@ function App() {
     return (
         <>
            <LanguageProvider>
-            <div className="container-fluid">
+            <div>
                 <Router>
                 <Header />
                     <Routes>

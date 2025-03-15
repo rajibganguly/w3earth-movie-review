@@ -4,24 +4,38 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.min.css";
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-@import "https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Reenie+Beanie&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap";
 
+body {
+  /*
+  https://i0.wp.com/seattlefilmcritics.com/wp-content/uploads/2018/10/film-reel-bg-1.jpg?ssl=1
+  */
+  background: url('https://www.nam-citluk.com/wp-content/uploads/2016/01/light-background.jpg') right top;
+}
 
-.punch-factor {
-  font-family: "Reenie Beanie", cursive;
+.punch-factor-font {
+  font-family: "Cedarville Cursive", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
+  line-height: auto;
+}
+.punch-factor {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: auto;
   background:#ffffa7;
+  border:1px solid #c9c93d;
 }
 .punch-factor-hindi {
-  font-family: "Mukta", sans-serif;
-  font-weight: 200;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
+  font-size: 1.5rem;
+  line-height: auto;
   background:#ffffa7;
+  border:#c9c93d;
 }
 
 .title, h4, h3 {

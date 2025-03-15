@@ -32,7 +32,7 @@ const Header = () => {
 
     return (
         <>
-        <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <header className="d-flex flex-wrap justify-content-center p-3 mb-4 border-bottom">
         <a href="/" className="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
             <span className="display-5 link-body-emphasis mb-1 fs-2"><strong>w3earth</strong> 
             </span>
