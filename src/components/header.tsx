@@ -13,7 +13,11 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 const Header = () => {
     const context = useContext(LanguageContext);
+    const languages = ["All", "English", "Hindi", "Bengali", "Gujarati", "Marathi", "Tamil", "Telugu"];
+
     const [activeLanguage, setActiveLanguage] = useState('All');
+    
+
 
     if (!context) {
         throw new Error('Header must be used within a LanguageProvider');
@@ -30,13 +34,31 @@ const Header = () => {
         <>
         <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="/" className="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
-            <span className="display-5 link-body-emphasis mb-1 fs-2"><strong>w3earth</strong> <small className="fs-5">movie-review</small></span>
+            <span className="display-5 link-body-emphasis mb-1 fs-2"><strong>w3earth</strong> 
+            </span>
         </a>
-
+        <span className="d-flex align-items-center p-1 pe-2 bg-danger-subtle border border-danger-subtle rounded-pill">
+            <img
+                className="rounded-circle me-1"
+                width="24"
+                height="24"
+                src="https://w3earth.link/assets/images/logo/projects-logo009.png"
+                alt=""
+            />
+            <span className="badge text-danger-emphasis">Movie Review</span>
+            </span>
         <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li className="nav-item"><a href="#" className={`nav-link ${activeLanguage === 'All' ? 'active' : ''}`} aria-current="page" onClick={() => setLanguage('All')}>All</a></li>
-            <li className="nav-item"><a href="#" className={`nav-link ${activeLanguage === 'English' ? 'active' : ''}`} onClick={() => setLanguage('English')}>English</a></li>
-            <li className="nav-item"><a href="#" className={`nav-link ${activeLanguage === 'Hindi' ? 'active' : ''}`} onClick={() => setLanguage('Hindi')}>Hindi</a></li>
+        {languages.map((language, index) => (
+          <li className="nav-item" key={index}>
+            <a
+              href="#"
+              className={`nav-link ${activeLanguage === language ? "active" : ""}`}
+              onClick={() => setLanguage(language)}
+            >
+              {language}
+            </a>
+          </li>
+        ))}
         </ul>
 
         <ul className="nav nav-pills">

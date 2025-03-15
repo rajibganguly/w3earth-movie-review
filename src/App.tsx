@@ -15,6 +15,7 @@ function App() {
 
     useEffect(() => {
         console.log('Movies Data:', moviesData);
+        
     }, []);
 
     return (

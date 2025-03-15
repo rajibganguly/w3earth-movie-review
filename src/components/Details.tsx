@@ -41,7 +41,7 @@ const Details = (totalArray: any) => {
 
                                 </div>
                                 <div className="col-auto d-none d-lg-block">
-                                    <img src={`../src/assets/movies/${mov.imageName}`} className='img-fluid' alt={mov.name} />
+                                    <img src={`../public/movies/${mov.imageName}`} className='img-fluid' alt={mov.name} />
                                 </div>
                             </div>
                         </div>
