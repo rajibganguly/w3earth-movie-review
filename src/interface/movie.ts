@@ -4,6 +4,7 @@ export interface Movie {
     storyline: string;
     punchfactor: string;
     year: string;
+    movielink: string,
     rate: number;
     imageName: string;
     genre: string;

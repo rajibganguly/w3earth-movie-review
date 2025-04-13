@@ -32,9 +32,16 @@ const Details = (totalArray: any) => {
                                 <div className="col p-4 d-flex flex-column position-static align-items-start">
                                     <strong className="d-inline-block mb-2 text-primary-emphasis">{mov.language}</strong>
                                     <h1 className="mb-0 text-danger display-4">{mov.name} <small className="text-dark">[{mov.year}]</small></h1>
-                                    <div className="mb-1 mt-1 text-body-secondary">Calculate total votes and like ratio %(height 5): <Star value={mov.rate || "N/A"} /></div>
+                                    <div className="mb-1 mt-1 text-body-secondary">Calculate total votes and like ratio: <strong>{mov.rate}</strong></div>
+                                    <div>
+                                    <progress value={mov.rate} max="5"></progress>
+                                    </div>
                                     <h4 className="mt-4 mb-3">Story:</h4>
                                     <p className="card-text mb-auto text-start px-2">{mov.storyline}</p>
+                                    <h3 className="mt-4 mb-3">Link:</h3>
+                                    <p>
+                                        {mov.movielink ? <a href={mov.movielink} target="_blank" rel="noopener noreferrer">{mov.movielink}</a> : "N/A"}
+                                    </p>
                                     <hr/>
                                     <h4 className="mt-4 mb-3">w3Earth Punch Factor:</h4>
                                     <p className="card-text mb-auto text-start px-2 punch-factor">{mov.punchfactor}</p>
@@ -75,19 +82,19 @@ const Details = (totalArray: any) => {
     )
 }
 
-const Star = ({ value }: any) => {
-    return (
-        <>
-            { value === 1 && <span className="star1"><img src={RedStar} alt="Red Star" /></span>}
-            { value === 2 && <span className="star2"><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /></span>}
-            { value === 3 && <span className="star3"><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /></span>}
-            { value === 4 && <span className="star4"><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /></span>}
-            { value === 5 && <span className="star5"><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /></span>}
-            { value === "" && <span>N/A</span>}
+// const Star = ({ value }: any) => {
+//     return (
+//         <>
+//             { value === 1 && <span className="star1"><img src={RedStar} alt="Red Star" /></span>}
+//             { value === 2 && <span className="star2"><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /></span>}
+//             { value === 3 && <span className="star3"><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /></span>}
+//             { value === 4 && <span className="star4"><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /></span>}
+//             { value === 5 && <span className="star5"><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /><img src={RedStar} alt="Red Star" /></span>}
+//             { value === "" && <span>N/A</span>}
             
-        </>
-    );
-};
+//         </>
+//     );
+// };
 
 export default Details;
 
