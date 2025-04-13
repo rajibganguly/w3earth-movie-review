@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom';
 import './../App.css'
 import { Movie } from './../interface/movie'
-import RedStar from '../assets/red-star.svg'
 
 const Details = (totalArray: any) => {
     const [mov, setMov] = useState<Movie | null>(null);
