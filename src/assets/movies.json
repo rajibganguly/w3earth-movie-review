@@ -10,7 +10,9 @@
     "genre": "horror",
     "language": "English",
     "punchfactor": "Must seen movie if you love horror movie",
-    "directors": ["William Friedkin"],
+    "directors": [
+      "William Friedkin"
+    ],
     "artists": [
       "Ellen Burstyn",
       "Max von Sydow",
@@ -32,8 +34,13 @@
     "genre": "space",
     "language": "English",
     "punchfactor": "'Gravity' is a must-see film due to its stunning visuals, immersive experience, and exploration of human resilience in the face of unimaginable danger, all while offering a realistic depiction of space travel.",
-    "directors": ["Alfonso Cuarón"],
-    "artists": ["Jonás Cuarón", "Alfonso Cuarón"]
+    "directors": [
+      "Alfonso Cuarón"
+    ],
+    "artists": [
+      "Jonás Cuarón",
+      "Alfonso Cuarón"
+    ]
   },
   {
     "id": 734356773,
@@ -46,8 +53,15 @@
     "genre": "suspense",
     "language": "English",
     "punchfactor": "Every time when you think, the story you understood, it takes a turn and you are left with a question mark. The ending is so shocking that you will be left speechless. You never know what is going to happen next. The story is so gripping that you will not be able to take your eyes off the screen. The characters are so well written that you will feel for them. The acting is top notch and the direction is brilliant. This is a must watch for anyone who loves a good thriller.",
-    "directors": ["Erik Richter Strand"],
-    "artists": ["Eve Hewson", "Simona Brown", "Robert Aramayo", "Tom Bateman"]
+    "directors": [
+      "Erik Richter Strand"
+    ],
+    "artists": [
+      "Eve Hewson",
+      "Simona Brown",
+      "Robert Aramayo",
+      "Tom Bateman"
+    ]
   },
   {
     "id": 466483473,
@@ -60,7 +74,9 @@
     "genre": "mythological science-fiction",
     "language": "Hindi",
     "punchfactor": "I like it but not as per the book as written in 'Kalki Puran'",
-    "directors": ["Nag Ashwin"],
+    "directors": [
+      "Nag Ashwin"
+    ],
     "artists": [
       "Amitabh Bachchan",
       "Kamal Haasan",
@@ -80,8 +96,14 @@
     "genre": "hinduism",
     "language": "Hindi",
     "punchfactor": "Chaava delivers an intense, raw portrayal of torment that gave me genuine goosebumps. The scenes of torture are hauntingly impactful, yet I deeply appreciate the directors thoughtful restraint in not showing every detail. This balance allows the narrative to resonate without overwhelming, leaving a lasting impression that lingers well beyond the screen...",
-    "directors": ["Laxman Utekar"],
-    "artists": ["Vicky Kaushal", "Rashmika Mandanna", "Akshay Khanna"]
+    "directors": [
+      "Laxman Utekar"
+    ],
+    "artists": [
+      "Vicky Kaushal",
+      "Rashmika Mandanna",
+      "Akshay Khanna"
+    ]
   },
   {
     "id": 1017899,
@@ -94,8 +116,15 @@
     "genre": "comedy-drama",
     "language": "Hindi",
     "punchfactor": "A masterpiece that combines laughter, emotions, and valuable life lessons.",
-    "directors": ["Rajkumar Hirani"],
-    "artists": ["Aamir Khan", "R. Madhavan", "Sharman Joshi", "Kareena Kapoor"]
+    "directors": [
+      "Rajkumar Hirani"
+    ],
+    "artists": [
+      "Aamir Khan",
+      "R. Madhavan",
+      "Sharman Joshi",
+      "Kareena Kapoor"
+    ]
   },
   {
     "id": 1024667,
@@ -108,8 +137,15 @@
     "genre": "action-drama",
     "language": "Hindi",
     "punchfactor": "One of Bollywood's greatest classics with unforgettable characters and dialogues.",
-    "directors": ["Ramesh Sippy"],
-    "artists": ["Amitabh Bachchan", "Dharmendra", "Hema Malini", "Amjad Khan"]
+    "directors": [
+      "Ramesh Sippy"
+    ],
+    "artists": [
+      "Amitabh Bachchan",
+      "Dharmendra",
+      "Hema Malini",
+      "Amjad Khan"
+    ]
   },
   {
     "id": 201677,
@@ -122,7 +158,9 @@
     "genre": "science fiction",
     "language": "English",
     "punchfactor": "A mind-bending thriller that will keep you on the edge of your seat.",
-    "directors": ["Christopher Nolan"],
+    "directors": [
+      "Christopher Nolan"
+    ],
     "artists": [
       "Leonardo DiCaprio",
       "Joseph Gordon-Levitt",
@@ -141,8 +179,14 @@
     "genre": "drama",
     "language": "English",
     "punchfactor": "A timeless story of hope and perseverance.",
-    "directors": ["Frank Darabont"],
-    "artists": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"]
+    "directors": [
+      "Frank Darabont"
+    ],
+    "artists": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ]
   },
   {
     "id": 3019077,
@@ -155,8 +199,14 @@
     "genre": "drama",
     "language": "Bengali",
     "punchfactor": "A masterpiece that redefined Indian cinema on the global stage.",
-    "directors": ["Satyajit Ray"],
-    "artists": ["Subir Banerjee", "Kanu Banerjee", "Karuna Banerjee"]
+    "directors": [
+      "Satyajit Ray"
+    ],
+    "artists": [
+      "Subir Banerjee",
+      "Kanu Banerjee",
+      "Karuna Banerjee"
+    ]
   },
   {
     "id": 302446,
@@ -169,8 +219,14 @@
     "genre": "drama",
     "language": "Bengali",
     "punchfactor": "A captivating adaptation of Rabindranath Tagore's timeless novel.",
-    "directors": ["Rituparno Ghosh"],
-    "artists": ["Aishwarya Rai Bachchan", "Prosenjit Chatterjee", "Raima Sen"]
+    "directors": [
+      "Rituparno Ghosh"
+    ],
+    "artists": [
+      "Aishwarya Rai Bachchan",
+      "Prosenjit Chatterjee",
+      "Raima Sen"
+    ]
   },
   {
     "id": 4012344,
@@ -183,8 +239,13 @@
     "genre": "romance-drama",
     "language": "Marathi",
     "punchfactor": "A powerful love story that captures raw emotions and societal struggles.",
-    "directors": ["Nagraj Manjule"],
-    "artists": ["Rinku Rajguru", "Akash Thosar"]
+    "directors": [
+      "Nagraj Manjule"
+    ],
+    "artists": [
+      "Rinku Rajguru",
+      "Akash Thosar"
+    ]
   },
   {
     "id": 4025666,
@@ -197,8 +258,13 @@
     "genre": "biographical",
     "language": "Marathi",
     "punchfactor": "An inspiring tale about the origins of Indian cinema.",
-    "directors": ["Paresh Mokashi"],
-    "artists": ["Nandu Madhav", "Vibhawari Deshpande"]
+    "directors": [
+      "Paresh Mokashi"
+    ],
+    "artists": [
+      "Nandu Madhav",
+      "Vibhawari Deshpande"
+    ]
   },
   {
     "id": 5016777,
@@ -211,8 +277,14 @@
     "genre": "comedy-drama",
     "language": "Gujarati",
     "punchfactor": "A refreshing portrayal of Gujarati culture with humor and wit.",
-    "directors": ["Abhishek Jain"],
-    "artists": ["Divyang Thakkar", "Anang Desai", "Ami Trivedi"]
+    "directors": [
+      "Abhishek Jain"
+    ],
+    "artists": [
+      "Divyang Thakkar",
+      "Anang Desai",
+      "Ami Trivedi"
+    ]
   },
   {
     "id": 50245455,
@@ -225,8 +297,13 @@
     "genre": "drama",
     "language": "Gujarati",
     "punchfactor": "A visually stunning and emotionally charged tale of empowerment.",
-    "directors": ["Abhishek Shah"],
-    "artists": ["Shraddha Dangar", "Jayesh More"]
+    "directors": [
+      "Abhishek Shah"
+    ],
+    "artists": [
+      "Shraddha Dangar",
+      "Jayesh More"
+    ]
   },
   {
     "id": 6016754,
@@ -239,8 +316,15 @@
     "genre": "epic-action",
     "language": "Telugu",
     "punchfactor": "A cinematic spectacle with breathtaking visuals and a gripping story.",
-    "directors": ["S.S. Rajamouli"],
-    "artists": ["Prabhas", "Rana Daggubati", "Anushka Shetty", "Tamannaah"]
+    "directors": [
+      "S.S. Rajamouli"
+    ],
+    "artists": [
+      "Prabhas",
+      "Rana Daggubati",
+      "Anushka Shetty",
+      "Tamannaah"
+    ]
   },
   {
     "id": 602566,
@@ -253,8 +337,13 @@
     "genre": "drama",
     "language": "Telugu",
     "punchfactor": "A raw and intense portrayal of love, loss, and redemption.",
-    "directors": ["Sandeep Reddy Vanga"],
-    "artists": ["Vijay Deverakonda", "Shalini Pandey"]
+    "directors": [
+      "Sandeep Reddy Vanga"
+    ],
+    "artists": [
+      "Vijay Deverakonda",
+      "Shalini Pandey"
+    ]
   },
   {
     "id": 701344,
@@ -267,36 +356,41 @@
     "genre": "romance-drama",
     "language": "Tamil",
     "punchfactor": "A captivating tale that brings rural life and raw emotions to the forefront.",
-    "directors": ["Ameer Sultan"],
-    "artists": ["Karthi", "Priyamani"]
+    "directors": [
+      "Ameer Sultan"
+    ],
+    "artists": [
+      "Karthi",
+      "Priyamani"
+    ]
   },
-   {
-      "id":7023444,
-      "name":"Dhumketu",
-      "year":"2025",
-      "movielink":"https://www.youtube.com/watch?v=J24-cDVT_To",
-      "rate":4,
-      "imageName":"dhoomketu.jpg",
-      "storyline":"Dhumketu can refer to a prolific Gujarati writer or a significant figure in Hindu mythology, the Ganesha avatar known as Dhumraketu. Below is a story based on Dhumketu's most celebrated short story, The Post Office, as well as information about the mythological figure.",
-      "genre":"drama",
-      "language":"Bengali",
-      "punchfactor":"In Hindu mythology, Dhumraketu (sometimes spelled Dhumketu) is an incarnation of the god Ganesha who will appear in the present age, the Kali Yuga.",
-      "directors":[
-         "Rana pal",
-         "Annapurna Basu",
-         "Rahul Chowdhury",
-         "Amit Kumar Das",
-         "Munmun Sutradhar",
-         "Amitava Seal"
-      ],
-      "artists":[
-         "Dev",
-         "Subhasree Ganguly",
-         "Rudranil Ghosh",
-         "Chiranjeet",
-         "ParamBratta"
-      ]
-   },
+  {
+    "id": 7023444,
+    "name": "Dhumketu",
+    "year": "2025",
+    "movielink": "https://www.youtube.com/watch?v=J24-cDVT_To",
+    "rate": 4,
+    "imageName": "dhoomketu.jpg",
+    "storyline": "Dhumketu can refer to a prolific Gujarati writer or a significant figure in Hindu mythology, the Ganesha avatar known as Dhumraketu. Below is a story based on Dhumketu's most celebrated short story, The Post Office, as well as information about the mythological figure.",
+    "genre": "drama",
+    "language": "Bengali",
+    "punchfactor": "In Hindu mythology, Dhumraketu (sometimes spelled Dhumketu) is an incarnation of the god Ganesha who will appear in the present age, the Kali Yuga.",
+    "directors": [
+      "Rana pal",
+      "Annapurna Basu",
+      "Rahul Chowdhury",
+      "Amit Kumar Das",
+      "Munmun Sutradhar",
+      "Amitava Seal"
+    ],
+    "artists": [
+      "Dev",
+      "Subhasree Ganguly",
+      "Rudranil Ghosh",
+      "Chiranjeet",
+      "ParamBratta"
+    ]
+  },
   {
     "id": 3553112,
     "name": "Super Deluxe",
@@ -308,7 +402,11 @@
     "genre": "drama",
     "language": "Tamil",
     "punchfactor": "A bold and brilliant masterpiece that defies conventional storytelling.",
-    "directors": ["Thiagarajan Kumararaja"],
-    "artists": ["N/A"]
+    "directors": [
+      "Thiagarajan Kumararaja"
+    ],
+    "artists": [
+      "N/A"
+    ]
   }
 ]
